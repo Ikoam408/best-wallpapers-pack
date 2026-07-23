@@ -116,7 +116,7 @@ button,
   min-height: 80vh;
   display: grid;
   place-items: center;
-  background-image: url('images/cosmic-1.png');
+  background-image: url('images/cosmic-1.svg');
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -248,7 +248,7 @@ button,
 .home-mockup-front {
   transform: translate(0, 0) rotate(0deg);
   background: linear-gradient(180deg, rgba(13, 24, 52, 0.96), rgba(7, 11, 28, 0.98)),
-              url('images/cosmic-2.png');
+              url('images/cosmic-2.svg');
   background-size: cover;
   background-position: center;
   border: 1px solid rgba(255,255,255,0.12);
@@ -893,7 +893,7 @@ button,
 .mockup-top {
   transform: translate(0, 0) rotate(0deg);
   background: linear-gradient(180deg, rgba(25, 34, 63, 0.95), rgba(7, 10, 24, 0.98)),
-              url('images/cosmic-2.png');
+              url('images/cosmic-2.svg');
   background-size: cover;
   background-position: center;
 }

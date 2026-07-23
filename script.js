@@ -18,7 +18,7 @@ const packData = {
       'Free sample available',
       'High-quality PNG previews'
     ],
-    images: ['images/cartoon-1.png', 'images/cartoon-2.png', 'images/hero-wallpaper.svg'],
+    images: ['images/cartoon-1.svg', 'images/cartoon-2.svg', 'images/hero-wallpaper.svg'],
     buttonText: 'Buy Cartoon Pack',
     badge: 'Cartoon Pack',
     buyLink: 'https://ikoam-singh.itch.io/the-best-phone-wallpapers-pack',
@@ -37,7 +37,7 @@ const packData = {
       'Free sample included',
       'High-resolution quality'
     ],
-    images: ['images/cosmic-1.png', 'images/cosmic-2.png', 'images/hero-wallpaper.svg'],
+    images: ['images/cosmic-1.svg', 'images/cosmic-2.svg', 'images/hero-wallpaper.svg'],
     buttonText: 'Buy Cosmic Pack',
     badge: 'Cosmic Pack',
     buyLink: 'https://ikoam-singh.itch.io/the-best-phone-wallpapers-pack',
@@ -75,7 +75,7 @@ function applyPack(packKey) {
   badge.textContent = pack.badge;
   buyButton.textContent = pack.buttonText;
   buyButton.href = pack.buyLink;
-  sampleButton.href = 'downloads/free-wallpaper.png';
+  sampleButton.href = 'downloads/free-wallpaper.svg';
   giftTitle.textContent = pack.giftTitle;
   giftDescription.textContent = pack.giftDescription;
   giftLink.textContent = pack.giftButton;
